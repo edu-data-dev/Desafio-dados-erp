@@ -72,5 +72,146 @@
                 }
             ]
         }
+            ,
+            {
+                "guestCheckId": 2233445566,
+                "chkNum": 5678,
+                "opnBusDt": "2024-02-02",
+                "opnUTC": "2024-02-02T10:10:10",
+                "opnLcl": "2024-02-02T07:10:10",
+                "clsdBusDt": "2024-02-02",
+                "clsdUTC": "2024-02-02T13:13:13",
+                "clsdLcl": "2024-02-02T10:13:13",
+                "lastTransUTC": "2024-02-02T13:13:13",
+                "lastTransLcl": "2024-02-02T10:13:13",
+                "lastUpdatedUTC": "2024-02-02T14:14:14",
+                "lastUpdatedLcl": "2024-02-02T11:14:14",
+                "clsdFlag": true,
+                "gstCnt": 2,
+                "subTtl": 200.0,
+                "nonTxblSlsTtl": null,
+                "chkTtl": 200.0,
+                "dscTtl": 0,
+                "payTtl": 200.0,
+                "balDueTtl": null,
+                "rvcNum": 102,
+                "otNum": 2,
+                "ocNum": null,
+                "tblNum": 2,
+                "tblName": "91",
+                "empNum": 55556,
+                "numSrvcRd": 2,
+                "numChkPrntd": 1,
+                "taxes": [
+                    {
+                        "taxNum": 29,
+                        "txblSlsTtl": 200.0,
+                        "taxCollTtl": 42.0,
+                        "taxRate": 21,
+                        "type": 3
+                    }
+                ],
+                "detailLines": [
+                    {
+                        "guestCheckLineItemId": 8877665544,
+                        "rvcNum": 124,
+                        "dtlOtNum": 2,
+                        "dtlOcNum": null,
+                        "lineNum": 1,
+                        "dtlId": 2,
+                        "detailUTC": "2024-02-02T10:10:10",
+                        "detailLcl": "2024-02-02T07:10:10",
+                        "lastUpdateUTC": "2024-02-02T11:11:11",
+                        "lastUpdateLcl": "2024-02-02T08:11:11",
+                        "busDt": "2024-02-02",
+                        "wsNum": 8,
+                        "dspTtl": 200.0,
+                        "dspQty": 2,
+                        "aggTtl": 200.0,
+                        "aggQty": 2,
+                        "chkEmpId": 10454319,
+                        "chkEmpNum": 81002,
+                        "svcRndNum": 2,
+                        "seatNum": 2,
+                        "menuItem": {
+                            "miNum": 6043,
+                            "modFlag": false,
+                            "inclTax": 42.0,
+                            "activeTaxes": "29",
+                            "prcLvl": 2
+                        }
+                    }
+                ]
+            },
+            {
+                "guestCheckId": 3344556677,
+                "chkNum": 9101,
+                "opnBusDt": "2024-03-03",
+                "opnUTC": "2024-03-03T11:11:11",
+                "opnLcl": "2024-03-03T08:11:11",
+                "clsdBusDt": "2024-03-03",
+                "clsdUTC": "2024-03-03T14:14:14",
+                "clsdLcl": "2024-03-03T11:14:14",
+                "lastTransUTC": "2024-03-03T14:14:14",
+                "lastTransLcl": "2024-03-03T11:14:14",
+                "lastUpdatedUTC": "2024-03-03T15:15:15",
+                "lastUpdatedLcl": "2024-03-03T12:15:15",
+                "clsdFlag": false,
+                "gstCnt": 3,
+                "subTtl": 300.0,
+                "nonTxblSlsTtl": null,
+                "chkTtl": 300.0,
+                "dscTtl": -20,
+                "payTtl": 280.0,
+                "balDueTtl": 20.0,
+                "rvcNum": 103,
+                "otNum": 3,
+                "ocNum": null,
+                "tblNum": 3,
+                "tblName": "92",
+                "empNum": 55557,
+                "numSrvcRd": 1,
+                "numChkPrntd": 3,
+                "taxes": [
+                    {
+                        "taxNum": 30,
+                        "txblSlsTtl": 300.0,
+                        "taxCollTtl": 63.0,
+                        "taxRate": 21,
+                        "type": 3
+                    }
+                ],
+                "detailLines": [
+                    {
+                        "guestCheckLineItemId": 7766554433,
+                        "rvcNum": 125,
+                        "dtlOtNum": 3,
+                        "dtlOcNum": null,
+                        "lineNum": 1,
+                        "dtlId": 3,
+                        "detailUTC": "2024-03-03T11:11:11",
+                        "detailLcl": "2024-03-03T08:11:11",
+                        "lastUpdateUTC": "2024-03-03T12:12:12",
+                        "lastUpdateLcl": "2024-03-03T09:12:12",
+                        "busDt": "2024-03-03",
+                        "wsNum": 9,
+                        "dspTtl": 300.0,
+                        "dspQty": 3,
+                        "aggTtl": 300.0,
+                        "aggQty": 3,
+                        "chkEmpId": 10454320,
+                        "chkEmpNum": 81003,
+                        "svcRndNum": 3,
+                        "seatNum": 3,
+                        "menuItem": {
+                            "miNum": 6044,
+                            "modFlag": true,
+                            "inclTax": 63.0,
+                            "activeTaxes": "30",
+                            "prcLvl": 1
+                        }
+                    }
+                ]
+            }
     ]
 }
