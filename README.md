@@ -10,11 +10,43 @@ O projeto está dividido em duas partes principais:
 
 ## Como Executar o Projeto
 
-*(Esta seção será preenchida ao final, com instruções claras para o avaliador)*
+Siga os passos abaixo para configurar e executar os scripts da solução.
 
-1. Clone o repositório: `git clone ...`
-2. ...
+### Pré-requisitos
+- Python 3.8+
+- Git
 
+### Passos
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/edu-data-dev/Desafio-dados-erp.git](https://github.com/edu-data-dev/Desafio-dados-erp.git)
+    cd desafio-engenharia-de-dados
+    ```
+
+2.  **Crie e ative um ambiente virtual (recomendado):**
+    ```bash
+    # Cria o ambiente
+    python -m venv .venv
+
+    # Ativa no Windows
+    # .venv\Scripts\activate
+
+    # Ativa no macOS/Linux
+    source .venv/bin/activate
+    ```
+
+3.  **Executar a solução do Desafio 1:**
+    Este script irá criar um banco de dados SQLite (`coco_bambu.db`) e populá-lo com os dados do `data/ERP.json`.
+    ```bash
+    python src/challenge_1.py
+    ```
+
+4.  **Executar a simulação do Desafio 2:**
+    Este script irá criar uma pasta `datalake` na raiz do projeto, simulando a ingestão de arquivos na estrutura particionada proposta.
+    ```bash
+    python src/challenge_2.py
+    ```
 ## Estrutura do Repositório
 
 - **/data**: Contém os dados brutos de entrada (ex: `ERP.json`).
