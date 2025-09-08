@@ -1,4 +1,5 @@
 # Desafio de Engenharia de Dados
+📌 Status do Projeto: Resolvido
 
 Este repositório contém a solução para o desafio de Engenharia de Dados proposto por um Laboratório de Tecnologia bastante conhecido no mercado.
 
